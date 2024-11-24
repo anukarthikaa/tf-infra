@@ -8,7 +8,7 @@ provider "aws" {
     default_tags {
       tags = {
         Owner = var.project_name
-        Environment = var.env
+        Environment = var.environment
       }
     }
   
